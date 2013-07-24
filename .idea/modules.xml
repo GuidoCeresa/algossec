@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algossec.iml" filepath="$PROJECT_DIR$/algossec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algossec-grailsPlugins.iml" filepath="$PROJECT_DIR$/algossec-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

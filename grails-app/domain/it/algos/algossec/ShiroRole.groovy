@@ -1,10 +1,10 @@
 package it.algos.algossec
 
-class Role {
+class ShiroRole {
     String name
 
-    static hasMany = [users: User, permissions: String]
-    static belongsTo = User
+    static hasMany = [users: ShiroUser, permissions: String]
+    static belongsTo = ShiroUser
 
     static constraints = {
         name(nullable: false, blank: false, unique: true)

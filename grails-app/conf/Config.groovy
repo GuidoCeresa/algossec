@@ -79,4 +79,7 @@ log4j = {
             'org.springframework',
             'org.hibernate',
             'net.sf.ehcache.hibernate'
+
+    debug   'grails.app.conf.BootStrap'
+    debug   'grails.app.realm'
 }// fine di log4j

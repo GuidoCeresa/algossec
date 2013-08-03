@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cd67f90-5e3a-4f31-b811-3a68b55f071c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/it/algos/algossec/ProvaSecuredTests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algossec-grailsPlugins.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/conf/it/algos/algossec/SecurityFilters.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/it/algos/algossec/ShiroSecurityFilters.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/it/algos/algossec/Role.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/it/algos/algossec/ShiroRole.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/domain/it/algos/algossec/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/it/algos/algossec/ShiroUser.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/grails-app/realms/it/algos/algossec/DbRealm.groovy" afterPath="$PROJECT_DIR$/grails-app/realms/it/algos/algossec/ShiroDbRealm.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AlgossecGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/AlgossecGrailsPlugin.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algossec.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <file path="$PROJECT_DIR$/../algosimp/.idea/workspace.xml" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374657457046" ignored="false" />
-    <file path="/Dummy.txt" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375463618173" ignored="false" />
+    <file path="/Dummy.txt" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375510924592" ignored="false" />
     <file path="/README" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374652638921" ignored="false" />
     <file path="$PROJECT_DIR$/../algos/grails-app/conf/Config.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374656819972" ignored="false" />
     <file path="/Prova.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374657133217" ignored="false" />
-    <file path="/AlgossecGrailsPlugin.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374658389819" ignored="false" />
-    <file path="/a.dummy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375457016391" ignored="false" />
+    <file path="/AlgossecGrailsPlugin.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375512236247" ignored="false" />
+    <file path="/a.dummy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375463729964" ignored="false" />
     <file path="$PROJECT_DIR$/../algosvers/Pippo.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374658079261" ignored="false" />
     <file path="/Pippo.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374658238088" ignored="false" />
     <file path="/fragment.java" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375456828045" ignored="false" />
@@ -35,6 +26,11 @@
     <file path="/wikilogin.gsp" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374685768823" ignored="false" />
     <file path="$PROJECT_DIR$/../algoswiki/grails-app/views/wikiLogin/wikilogin.gsp" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1374688151052" ignored="false" />
     <file path="/ProvaSecured.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375454355301" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled9/grails-app/conf/BuildConfig.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375510944248" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled10/grails-app/conf/BuildConfig.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375511162959" ignored="false" />
+    <file path="/ProvaSec.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375511236297" ignored="false" />
+    <file path="$PROJECT_DIR$/../untitled10/grails-app/domain/untitled10/ProvaSec.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375511236297" ignored="false" />
+    <file path="$PROJECT_DIR$/../algos/AlgosGrailsPlugin.groovy" changelist="1cd67f90-5e3a-4f31-b811-3a68b55f071c" time="1375512345283" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -86,6 +81,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -107,7 +103,7 @@
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="57" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
+            <state line="34" column="47" selection-start="886" selection-end="966" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +112,61 @@
       <file leaf-file-name="AlgossecGrailsPlugin.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlgossecGrailsPlugin.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="67" selection-start="219" selection-end="219" vertical-scroll-proportion="0.13138686">
+            <state line="31" column="0" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.69196427">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algossec.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algossec.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="113" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algossec-grailsPlugins.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algossec-grailsPlugins.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".classpath" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".project" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.project">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -153,16 +203,17 @@
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/algossec/ShiroSecurityFilters.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/it/algos/algossec/ShiroSecurityFilters.groovy" />
-        <option value="$PROJECT_DIR$/AlgossecGrailsPlugin.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/AlgosGrailsPlugin.groovy" />
+        <option value="$PROJECT_DIR$/AlgossecGrailsPlugin.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="22" />
-    <option name="width" value="1390" />
-    <option name="height" value="860" />
+    <option name="x" value="116" />
+    <option name="y" value="62" />
+    <option name="width" value="1312" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -191,7 +242,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -416,6 +466,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,9 +484,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -460,6 +511,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -488,19 +552,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -604,23 +655,25 @@
       <created>1374660959759</created>
       <updated>1374660959759</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.11">
+      <created>1375463703703</created>
+      <updated>1375463703703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="22" width="1390" height="860" extended-state="0" />
-    <editor active="false" />
+    <frame x="116" y="62" width="1312" height="843" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32614556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -630,11 +683,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.60107815" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26540285" sideWeight="0.67432433" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32567567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -681,7 +736,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Role and User" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.11" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -698,63 +753,20 @@
     <MESSAGE value="add README" />
     <MESSAGE value="add file plugin" />
     <MESSAGE value="add Role and User" />
+    <MESSAGE value="0.11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/auth/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="75" selection-start="0" selection-end="926" vertical-scroll-proportion="-2.2340426">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/it/algos/algossec/Prova.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="42" selection-end="73" vertical-scroll-proportion="-1.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.8739496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/realms/it/algos/algossec/ShiroDbRealm.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#27#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.grails/2.2.3/projects/algossec/plugins/shiro-1.2.0-SNAPSHOT/src/templates/artifacts/filters/SecurityFilters.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="412" selection-end="412" vertical-scroll-proportion="0.40268457">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.grails/2.2.3/projects/algossec/plugins/shiro-1.2.0-SNAPSHOT/grails-app/conf/org/apache/shiro/grails/ShiroFilters.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="58" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-0.42857143">
-          <folding />
-        </state>
+        <state line="33" column="58" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-0.42857143" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.grails/2.2.3/projects/algossec/plugins/shiro-1.2.0-SNAPSHOT/ShiroGrailsPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="11" selection-start="9980" selection-end="9980" vertical-scroll-proportion="0.20542082">
-          <folding />
-        </state>
+        <state line="243" column="11" selection-start="9980" selection-end="9980" vertical-scroll-proportion="0.20542082" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/it/algos/algossec/ShiroRole.groovy">
@@ -777,18 +789,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="57" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/it/algos/algossec/ShiroSecurityFilters.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="30" selection-start="3435" selection-end="3435" vertical-scroll-proportion="0.8974719" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
@@ -798,21 +806,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="30" selection-start="3435" selection-end="3435" vertical-scroll-proportion="0.8974719">
+        <state line="34" column="47" selection-start="886" selection-end="966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algossec.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="113" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algossec-grailsPlugins.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AlgossecGrailsPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="67" selection-start="219" selection-end="219" vertical-scroll-proportion="0.13138686">
+        <state line="31" column="0" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.69196427">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>

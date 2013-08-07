@@ -53,7 +53,7 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2"
 
         // opzionali
-        runtime ":shiro:1.2.0-SNAPSHOT"
+        compile ":nimble:0.5.1"
 
         //--plugin della algos
 

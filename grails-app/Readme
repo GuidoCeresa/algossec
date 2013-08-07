@@ -1,0 +1,38 @@
+Plugin di security per controllare l'accesso con login e logout
+Grails: 2.2.3
+
+Utilizza un plugin esistente -nimble- che si basa su Shiro
+Praticamente algossec è un layer frapposto al plugin Nibble per regolare i parametri d'uso
+
+Nimble ha creato i seguenti file nel plugin algossec:
+1) grails-app/conf/NimbleBootStrap
+    // Creato da Nimble e successivamente modificato da me
+2) grails-app/conf/NimbleConfig
+    // Creato da Nimble; modificati alcuni parametri; nel plugin rimane l'originale DefaultNimbleConfig
+3) grails-app/conf/NimbleSecurityFilters
+    // Creato da Nimble e successivamente modificato da me
+4) grails-app/conf/NimbleUrlMappings
+    // Creato da Nimble e successivamente modificato da me
+
+5) grails-app/domain/it/algos/algossec/Profile
+    // Extend ProfileBase with your custom values here
+6) grails-app/domain/it/algos/algossec/User
+    // Extend UserBase with your custom values here
+
+7) alcune views in rails-app/views/templates/nimble/mail/
+
+8) grails-app/i18n/messages-nimble.properties
+
+
+I file 5) 6) 7) e 8) restano nel plugin
+I file 1) 2) 3) e 4) vengono copiati nell'applicazione e poi cancellati dal plugin (per evitare doppie classi)
+I file 1) 2) 3) e 4) vengono tipicamente modificati dall'applicazione per adeguarsi alle diverse necessità
+
+DataBase: utilizza il DB dell'applicazione finale (esclusi dal JAR)
+Views: utilizza i propri templates per creare i file .gsp
+Layout: utilizza il layout dell'applicazione finale (esclusi dal JAR)
+Index: utilizza il file index dell'applicazione finale (esclusi dal JAR)
+Scripts: ricopia il file i18n/algosvers.properties
+Templates: usati solo internamente (esclusi dal JAR)
+Test: usati solo internamente (esclusi dal JAR)
+CSS: utilizza il css dell'applicazione finale (esclusi dal JAR)

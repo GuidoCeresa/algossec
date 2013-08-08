@@ -15,10 +15,17 @@
  *  limitations under the License.
  */
 
+
+
 import grails.plugin.nimble.InstanceGenerator
 import grails.plugin.nimble.core.AdminsService
+import grails.plugin.nimble.core.ProfileBase
 import grails.plugin.nimble.core.Role
 import grails.plugin.nimble.core.UserBase
+import grails.plugin.nimble.core.UserService
+import it.algos.algossec.NimbleConst
+import it.algos.algossec.Profile
+import it.algos.algossec.User
 
 /*
  * Allows applications using Nimble to undertake process at BootStrap that are related to Nimbe provided objects
@@ -34,47 +41,60 @@ class NimbleBootStrap {
     def nimbleService
     def userService
     def adminsService
+    def progService
+    def roleService
 
     def init = { servletContext ->
+        User prog
+        User admin
+        User testUser
+        Profile progProfile
+        Profile adminProfile
+        Profile userProfile
 
         // The following must be executed
-        internalBootStap(servletContext)
+        //--creazione del ruolo Admin
+        //--creazione del ruolo User
+        nimbleService.init()
 
         // Execute any custom Nimble related BootStrap for your application below
+        creaRuoloProgrammatore()
 
-        if (!UserBase.findByUsername("user")) {
-            // Create example User account
-            def user = InstanceGenerator.user(grailsApplication)
-            user.username = "user"
-            user.pass = 'useR123!'
-            user.passConfirm = 'useR123!'
-            user.enabled = true
+        // Create Prog account
+        if (!User.findByUsername(NimbleConst.PROG_NAME)) {
+            prog = (User) InstanceGenerator.user(grailsApplication)
+            prog.username = NimbleConst.PROG_NAME
+            prog.pass = 'gac123'
+            prog.passConfirm = 'gac123'
+            prog.enabled = true
 
-            def userProfile = InstanceGenerator.profile(grailsApplication)
-            userProfile.fullName = "Test User"
-            userProfile.owner = user
-            user.profile = userProfile
+            progProfile = (Profile) InstanceGenerator.profile(grailsApplication)
+            progProfile.fullName = NimbleConst.PROG_NAME
+            progProfile.owner = prog
+            prog.profile = progProfile
 
             log.info("Creating default user account with username:user")
 
-            def savedUser = userService.createUser(user)
+            def savedUser = userService.createUser(prog)
             if (savedUser.hasErrors()) {
                 savedUser.errors.each { log.error(it) }
                 throw new RuntimeException("Error creating example user")
-            }
-        }
+            }// fine del blocco if
 
-        if (!UserBase.findByUsername("admin")) {
-            // Create example Administrative account
-            def admins = Role.findByName(AdminsService.ADMIN_ROLE)
-            def admin = InstanceGenerator.user(grailsApplication)
-            admin.username = "admin"
-            admin.pass = "admiN123!"
-            admin.passConfirm = "admiN123!"
+            progService.add(prog)
+            adminsService.add(prog)
+        }// fine del blocco if
+
+        // Create Admin account
+        if (!User.findByUsername(NimbleConst.ADMIN_NAME)) {
+            admin = (User) InstanceGenerator.user(grailsApplication)
+            admin.username = NimbleConst.ADMIN_NAME
+            admin.pass = "admin123"
+            admin.passConfirm = "admin123"
             admin.enabled = true
 
-            def adminProfile = InstanceGenerator.profile(grailsApplication)
-            adminProfile.fullName = "Administrator"
+            adminProfile = (Profile) InstanceGenerator.profile(grailsApplication)
+            adminProfile.fullName = NimbleConst.ADMIN_NAME
             adminProfile.owner = admin
             admin.profile = adminProfile
 
@@ -84,13 +104,56 @@ class NimbleBootStrap {
             if (savedAdmin.hasErrors()) {
                 savedAdmin.errors.each { log.error(it) }
                 throw new RuntimeException("Error creating administrator")
-            }
+            }// fine del blocco if
 
             adminsService.add(admin)
-        }
-    }
+        }// fine del blocco if
 
-    private internalBootStap(servletContext) {
-        nimbleService.init()
-    }
-}
+        // Create example User account
+        if (!User.findByUsername(NimbleConst.USER_NAME)) {
+            testUser = (User) InstanceGenerator.user(grailsApplication)
+            testUser.username = NimbleConst.USER_NAME
+            testUser.pass = 'user123'
+            testUser.passConfirm = 'user123'
+            testUser.enabled = true
+
+            userProfile = (Profile) InstanceGenerator.profile(grailsApplication)
+            userProfile.fullName = NimbleConst.USER_NAME
+            userProfile.owner = testUser
+            testUser.profile = userProfile
+
+            log.info("Creating default user account with username:user")
+
+            def savedUser = userService.createUser(testUser)
+            if (savedUser.hasErrors()) {
+                savedUser.errors.each { log.error(it) }
+                throw new RuntimeException("Error creating example user")
+            }// fine del blocco if
+        }// fine del blocco if
+
+    }// fine della closure
+
+    //--crea un nuovo ruolo come programmatore
+    //--diverso dal ruolo di Admin e superiore
+    def creaRuoloProgrammatore = {
+
+        // Perform all base Nimble setup
+        Role progRole = Role.findByName(progService.PROG_ROLE)
+        if (!progRole) {
+            progRole = new Role(description: 'Funzioni di programmatore',
+                    name: NimbleConst.PROG_ROLE,
+                    protect: true)
+            progRole.save()
+
+            if (progRole.hasErrors()) {
+                progRole.errors.each { log.error(it) }
+                throw new RuntimeException("Unable to create valid users role")
+            }// fine del blocco if
+        }// fine del blocco if
+    }// fine della closure
+
+    //--metodo invocato direttamente da Grails
+    def destroy = {
+    }// fine della closure
+
+}// fine della classe di tipo BootStrap

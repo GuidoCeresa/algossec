@@ -62,6 +62,24 @@ nimble {
         user = "it.algos.algossec.User"
         profile = "it.algos.algossec.Profile"
     }
+
+    localusers {
+        usernames {
+            minlength = 3
+            validregex = '[a-zA-Z0-9]*'
+        }
+        provision { active = true }
+    }
+
+    passwords {
+        mustcontain {
+            lowercase = false
+            uppercase = false
+            numbers = false
+            symbols = false
+        }
+        minlength = 6
+    }
 }
 
 environments {
